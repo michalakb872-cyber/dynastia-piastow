@@ -1,0 +1,324 @@
+
+body
+{
+    font-family: "Libre Baskerville", sans-serif;
+    margin: 0;
+    background-color: #F5EAD3;
+    font-size: 17px;
+   
+}
+
+#logo
+{
+    text-transform: uppercase;
+    color: #F2E6C9;
+    letter-spacing: 5px;
+    font-weight: 600;
+    margin-top: 52px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 46px;
+}
+
+
+.nawi
+{
+    background-color: #3A2318;
+    text-align: center;
+    color: #F2E6C9;
+}
+
+.menu
+{
+    list-style-type: none;
+    margin: 0px;
+    margin-bottom: 40px;
+    padding: 15px;
+    font-size: 20px;
+    min-height: 40px;
+    line-height: 200%;
+   
+}
+
+.menu > li
+{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-right: 1px dotted #F2E6C9;
+}
+
+.menu > li:first-child
+{
+    border-left: 1px dotted #F2E6C9;   
+}
+
+.menu li:hover {
+    color: #E6C87A;
+}
+
+.info
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 600px;
+    text-align: center;
+    padding: 0;
+}
+
+.poczat
+{
+    font-size: 35px;
+    color: #8B6A2E;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.infoleft
+{
+    float: left;
+    width:  440px;
+    margin: 20px;
+}
+
+.infoleft img
+{
+    width: 400px;
+    height: 460px;
+    border: 3px solid #5A3E2B;
+}
+
+.inforight
+{
+    float: left;
+    width: 640px;
+    font-size: 22px;
+    text-align: justify;
+    margin-bottom: 40px; 
+    line-height: 1.6;
+    color: #F2E6C9;
+    hyphens: auto;
+    word-spacing: 0.05em;
+}
+
+.pasek-dynastia {
+    width: 100%;
+    height: 380px;
+    background-color: #2E2A16;
+    display: flex;
+    border-top: 2px solid #C9A35D;
+    border-bottom: 2px solid #C9A35D;
+    margin-top: 80px;
+
+}
+
+.pasek-dynastia img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    filter: saturate(0.85);
+}
+
+
+.contener
+{
+    width: 800px;
+    height: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.sekcja-wladcy
+{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.tytul-sekcji
+{
+    color: #C9A35D;
+    letter-spacing: 3px;
+    margin-bottom: 60px;
+    font-size: 34px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.karty {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.karta {
+    width: 300px;
+    float: left;
+    margin: 40px 25px;
+    background-color: #3A2318;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    vertical-align: top;
+}
+.karta img {
+    width: 100%;
+    height: 260px;          
+    object-fit: cover;      
+    display: block;
+}
+
+
+
+.karta h3 
+{
+    color: #F2E6C9;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.karta .infos
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -100%;
+    background-color: rgba(58, 35, 24, 0.97);
+    color: #F2E6C9;
+    padding: 18px;
+    font-size: 14px;
+    line-height: 1.5;
+    transition: 0.4s;
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.karta:hover .infos 
+{
+    bottom: 0;
+}
+
+.karty::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.sekcja-wladcy {
+    background-image: url("./img/dynastia-Piastow.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-color: rgba(58, 35, 24, 0.75);
+    background-blend-mode: overlay;
+
+    padding: 50px;
+}
+#logo2
+{
+    text-transform: uppercase;
+    color: #222222;
+    letter-spacing: 5px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 56px;
+    padding-top: 40px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.najważniejsze
+{
+    background-image: url(./img/vintage-grunge.jpg);
+   background-repeat: repeat-y;
+    margin-top: 80px;
+    background-position: top center;
+    height: 2800px;
+    background-size: cover;
+
+    
+}
+
+.pasek-dynastia2 {
+    width: 100%;
+    height: 380px;
+    background-color: #2E2A16;
+    display: flex;
+    border-top: 2px solid #C9A35D;
+    border-bottom: 2px solid #C9A35D;
+    margin-top: 80px;
+    
+
+}
+
+
+#conteneros
+{
+    width: 1400px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.blok
+{
+    background: rgba(40, 25, 15, 0.85);
+    width: 800px;
+    height: 300px;
+    border: 2px solid #c9a24d;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-bottom: 177px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    text-align: center;
+    padding: 10px;
+}
+
+.blok > h2
+{
+    font-size: 29px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+.blok > h3
+{
+    font-size: 29px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    text-transform: uppercase;
+}
+
+.blok > p
+{
+    margin-top: 50px;
+    font-size: 20px;
+    
+}
+.blok:last-child
+{
+    margin-bottom: 15px;
+    
+}
+
+@keyframes appear {
+    from
+    {
+        opacity: 0;
+        transform: translateX(-100px);
+
+    }
+    
+    to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+    
+}
+
+
